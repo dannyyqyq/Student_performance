@@ -1,5 +1,6 @@
 pandas
 numpy
 seaborn
+pre-commit
 -e .
  # automatic trigger setup.py
