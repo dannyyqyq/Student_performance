@@ -5,6 +5,7 @@ from src.logger import logging
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from dataclasses import dataclass
+from src.component.data_transformation import DataTransformation
 
 
 @dataclass
@@ -38,15 +39,11 @@ class DataIngestion:
             train_set.to_csv(
                 self.ingestion_config.train_data_path, index=False, header=True
             )
-            logging.info(
-                f"Train dataframe shape: {train_set.shape}. \n Train dataframe columns: {list(train_set.columns)}"
-            )
+            logging.info(f"Train dataframe shape: {train_set.shape}")
             test_set.to_csv(
                 self.ingestion_config.test_data_path, index=False, header=True
             )
-            logging.info(
-                f"Test dataframe shape: {test_set.shape}. \n Test dataframe columns: {list(test_set.columns)}"
-            )
+            logging.info(f"Test dataframe shape: {test_set.shape}.")
             logging.info("Data ingestion process completed successfully.")
 
             return (
@@ -59,4 +56,6 @@ class DataIngestion:
 
 if __name__ == "__main__":
     obj = DataIngestion()
-    obj.initiate_data_ingestion()
+    train_data, test_data = obj.initiate_data_ingestion()
+    data_transformation = DataTransformation()
+    data_transformation.initiate_data_transformation(train_data, test_data)
