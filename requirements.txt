@@ -2,5 +2,8 @@ pandas
 numpy
 seaborn
 pre-commit
+scikit-learn
+catboost
+xgboost
 -e .
  # automatic trigger setup.py
