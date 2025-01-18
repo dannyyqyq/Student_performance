@@ -135,7 +135,6 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-artifacts
 
 # Spyder project settings
 .spyderproject
@@ -175,3 +174,5 @@ notebooks/1 . EDA STUDENT PERFORMANCE .ipynb
 notebooks/2. MODEL TRAINING.ipynb
 data/
 notes/
+catboost_info/
+artifacts/*csv
