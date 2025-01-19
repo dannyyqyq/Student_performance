@@ -19,9 +19,25 @@ class DataIngestionConfig:
 
 class DataIngestion:
     def __init__(self):
+        """
+        Initializes the DataIngestion instance with a default configuration.
+
+        Attributes:
+            ingestion_config (DataIngestionConfig): Configuration object containing file paths for train, test, and raw data.
+        """
+
         self.ingestion_config = DataIngestionConfig()
 
     def initiate_data_ingestion(self):
+        """
+        Initiates the data ingestion process.
+
+        This method reads the dataset from notebooks/data/, creates a directory for storing the train,
+        test, and raw data, performs a train-test split, and saves the data to the respective files.
+
+        Return:
+            A tuple containing the file paths for the train and test data
+        """
         logging.info("Enter data ingestion component")
         try:
             df = pd.read_csv("notebooks/data/stud.csv")
