@@ -33,4 +33,4 @@ def predict_data():
 
 if __name__ == "__main__":
     # by default port = 5000
-    app.run(host="0.0.0.0")  # remove deug = true on deployment
+    app.run(host="0.0.0.0", port=80)  # remove debug = true on deployment
