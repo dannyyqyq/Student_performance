@@ -177,3 +177,4 @@ notes/
 catboost_info/
 artifacts/*csv
 artifacts/testing.ipynb
+http.md
