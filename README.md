@@ -21,7 +21,6 @@ This project focused on deploying a **Student Performance Application** using mo
 
 ✅ Automated CI/CD pipelines with **GitHub Actions** for seamless integration and delivery.  
 ✅ Worked with **Docker** for containerization, ensuring applications are portable and efficient.  
-✅ Implemented **multi-cloud deployment strategies**, leveraging both **AWS** and **Azure** for optimized workflows.  
 
 ---
 
