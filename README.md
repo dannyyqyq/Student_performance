@@ -15,4 +15,3 @@ I recently had the opportunity to work on a **cloud-based CI/CD project** where 
 
 ✅ Automated CI/CD pipelines with **GitHub Actions** for seamless integration and delivery.  
 ✅ Worked with **Docker** for containerization, ensuring applications are portable and efficient.  
-✅ Implemented **multi-cloud deployment strategies**, utilizing both **AWS** and **Azure** for optimized workflows.  
