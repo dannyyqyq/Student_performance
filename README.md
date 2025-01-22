@@ -4,7 +4,7 @@
 
 ### 🚀 **Excited to Share My Recent Project!**  
 
-This project focused on deploying a **Student Performance Application** using modern DevOps practices and cloud technologies. The deployment pipeline leveraged the power of **AWS** and **Azure**, demonstrating a seamless CI/CD process**.
+This project focused on deploying a **Student Performance Application** using modern DevOps practices and cloud technologies. The deployment pipeline leveraged the power of **AWS** and **Azure**, demonstrating a seamless CI/CD process.
 
 ---
 
