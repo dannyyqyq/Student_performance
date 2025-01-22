@@ -31,5 +31,3 @@ This project helped me deepen my knowledge and skills in:
 - **Cloud-native development**  
 - **End-to-end CI/CD pipeline creation**  
 - **Containerization using Docker**  
-
-Feel free to connect with me! Let’s exchange ideas and grow together. 🌟  
