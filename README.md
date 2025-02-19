@@ -1,4 +1,4 @@
-# 🎓 End-to-End Student Performance Prediction Project
+# 🎓 End-to-End Student Performance Prediction Classification Project
 
 ## 📌 Project Overview
 This project aims to predict student performance based on academic and socio-economic factors, helping educators and policymakers make data-driven decisions. The project covers:
